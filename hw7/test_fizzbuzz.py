@@ -3,7 +3,7 @@ import fizzbuzz
 class TestCase(unittest.TestCase):
 
 	def test1(self):
-		self.assertEqual(fizzbuzz.fizzbuzz(), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100])
+		self.assertEqual(fizzbuzz, ['FizzBuzz', 2, 3, 'Fizz', 5, 'Buzz', 'Fizz', 8, 9, 'Fizz', 'Buzz', 12, 'Fizz', 14, 15, 'FizzBuzz', 17, 18, 'Fizz', 20, 'Buzz', 'Fizz', 23, 24, 'Fizz', 'Buzz', 27, 'Fizz', 29, 30, 'FizzBuzz', 32, 33, 'Fizz', 35, 'Buzz', 'Fizz', 38, 39, 'Fizz', 'Buzz', 42, 'Fizz', 44, 45, 'FizzBuzz', 47, 48, 'Fizz', 50, 'Buzz', 'Fizz', 53, 54, 'Fizz', 'Buzz', 57, 'Fizz', 59, 60, 'FizzBuzz', 62, 63, 'Fizz', 65, 'Buzz', 'Fizz', 68, 69, 'Fizz', 'Buzz', 72, 'Fizz', 74, 75, 'FizzBuzz', 77, 78, 'Fizz', 80, 'Buzz', 'Fizz', 83, 84, 'Fizz', 'Buzz', 87, 'Fizz', 89, 90, 'FizzBuzz', 92, 93, 'Fizz', 95, 'Buzz', 'Fizz', 98, 99, 'Fizz'])
 
 
 if __name__ == '__main__':
